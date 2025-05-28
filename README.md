@@ -67,13 +67,6 @@ Thanks to open-source contributors and the Python community for providing the li
 
 ⭐ If you found this project helpful, feel free to star the repo!
 
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like badges (e.g., Python version, license), demo images, or a section for contributors added!
 
 
 

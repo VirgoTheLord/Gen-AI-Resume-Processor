@@ -1,77 +1,73 @@
-# Gen-AI-Resume-Processor
+# Gen AI Resume Processor
 
-A Python-based tool designed to extract, standardize, and export resume data using PDF parsing and database handling with ORM techniques. Ideal for developers or HR tech projects that require organizing resume data at scale.
-
----
-
-## 🚀 Features
-
-- 📄 **PDF Resume Extraction** – Extracts text content from uploaded PDF files.
-- 📋 **Template Generation** – Produces a clean, standardized format from resume data.
-- 🗃️ **ORM Integration** – Uses an Object-Relational Mapper for managing data storage.
-- 📊 **CSV Export** – Outputs resume information into a CSV file for easy analysis.
+A simple desktop application for AI-powered resume processing, built with Python's Tkinter for the user interface and leveraging state-of-the-art models from the Hugging Face Hub.
 
 ---
 
-## 🛠️ Installation
+## ✨ Features
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/VirgoTheLord/Gen-AI-Resume-Processor.git
-   cd Gen-AI-Resume-Processor
-(Optional) Create and activate a virtual environment:
+- **AI-Powered Resume Analysis:** Utilizes Hugging Face models to extract and summarize key information from resumes.
+- **User-Friendly Interface:** Clean and easy-to-use GUI built with Tkinter.
+- **Flexible Input:** Supports uploading resumes in various text formats.
+- **Quick Summaries:** Instantly receive insights and analysis on uploaded resumes.
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-🧪 Usage
-Extract PDF content:
+---
 
-bash
-Copy
-Edit
-python extractpdf.py
-Generate structured resume text:
+## 🛠️ Tech Stack
 
-bash
-Copy
-Edit
-python textgenerationfn.py
-Export data to CSV:
+- **Python 3**
+- **Tkinter** (GUI)
+- **Hugging Face Hub** (for AI model inference)
 
-bash
-Copy
-Edit
-python export_as_csv.py
-📁 Project Structure
-graphql
-Copy
-Edit
-Gen-AI-Resume-Processor/
-│
-├── apps.py               # ORM setup and app initialization
-├── extractpdf.py         # PDF text extraction logic
-├── textgenerationfn.py   # Resume text formatting and processing
-├── export_as_csv.py      # Data export to CSV
-├── requirements.txt      # Python package dependencies
-🤝 Contributing
-Pull requests are welcome! If you have suggestions for improvements or fixes, feel free to fork the repo and submit a PR.
+---
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more info.
+## 🚀 Getting Started
 
-🙏 Acknowledgements
-Thanks to open-source contributors and the Python community for providing the libraries used in this project.
+### Prerequisites
 
-⭐ If you found this project helpful, feel free to star the repo!
+- Python 3.x
+- Required packages (install via pip):
 
+```bash
+pip install tkinter
+pip install transformers
+pip install huggingface_hub
+```
 
+### Running the Application
 
+```bash
+python app.py
+```
 
+---
 
+## 🖥️ Usage
 
+1. Launch the application.
+2. Upload a resume file via the GUI.
+3. The application will process the file using a Hugging Face AI model and display extracted information and summaries.
 
+---
 
+## 🤝 Contributing
 
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+
+- **Author:** Alwin Aby Mathew
+- **Email:** [alwinabyofficial@gmail.com](mailto:alwinabyofficial@gmail.com)
+- **LinkedIn:** [alwin-aby-mathew](https://www.linkedin.com/in/alwin-aby-mathew-6248b52a2/)
+
+---
+
+> Powered by open-source AI models from [Hugging Face](https://huggingface.co/).
